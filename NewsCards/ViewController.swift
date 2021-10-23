@@ -50,7 +50,7 @@ extension ViewController: UICollectionViewDataSource {
 
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: CollectionViewCell.cellIdentifier, for: indexPath) as! CollectionViewCell
-        cell.textLabel.text = String(indexPath.row + 1)
+//        cell.textLabel.text = String(indexPath.row + 1)
         return cell
     }
 }
@@ -67,7 +67,7 @@ extension ViewController: UICollectionViewDelegateFlowLayout {
     func collectionView(_ collectionView: UICollectionView,
                         layout collectionViewLayout: UICollectionViewLayout,
                         sizeForItemAt indexPath: IndexPath) -> CGSize {
-        return CGSize(width: collectionView.bounds.size.width - CGFloat((cellSideMargin * 2)), height: collectionView.bounds.size.height * 0.68)
+        return CGSize(width: collectionView.bounds.size.width - CGFloat((cellSideMargin * 2)), height: collectionView.bounds.size.height * 0.45)
     }
     func collectionView(_ collectionView: UICollectionView,
                         layout collectionViewLayout: UICollectionViewLayout,
