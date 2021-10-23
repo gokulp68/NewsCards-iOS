@@ -7,15 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0B808C646A77A0C1B38DF4F3C86F1FA7 /* Pods-NewsCards-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 71CE9407CF73E9FF465E0EEC20A18F15 /* Pods-NewsCards-dummy.m */; };
-		1D33141387658F798638F6E947871157 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		1EFA192BF34F082FE017B2232C7D2B1C /* Pods-NewsCards-NewsCardsUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 52280F7898CB1124F81F426026C47D6E /* Pods-NewsCards-NewsCardsUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		92C8AC89AA02B24C1C6BF1C9A14FF678 /* Pods-NewsCardsTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 51E5DD8FF567164AB38D1E28E6A00E75 /* Pods-NewsCardsTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		93B8E89544C05866D6157C59CAC0E54D /* Pods-NewsCardsTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C95C79546898C49ADD42638997D22672 /* Pods-NewsCardsTests-dummy.m */; };
-		B7362BD7AB724C766DDBE9F639DBD1BD /* Pods-NewsCards-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F515E4D561B88BBFCC7AE2E8B974C6CF /* Pods-NewsCards-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ED847AC067ED129D11D1AA710DA6A124 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		F29C4A44885C40F821980ABE9AFB235A /* Pods-NewsCards-NewsCardsUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A82307FFFE29E6E1174F595D30D70DED /* Pods-NewsCards-NewsCardsUITests-dummy.m */; };
-		FDCF8B77F6CAE6B1BBD43F25D55277FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		1155EE4D7541D9065486656283FA25F8 /* Player-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BAEF27659C29843ECC7EF4F41CCCC807 /* Player-dummy.m */; };
+		18787234C8B77DCAC75D685F7B606331 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9944D1FAA43825D333E64715B876FB37 /* Foundation.framework */; };
+		1C2E597A8EE3A74F77E9FBD935D0FF6B /* CardGroupSliding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 299ED72CF2B6501FB2D97162E22BC96E /* CardGroupSliding.swift */; };
+		25D2782FC8F594429CE77E90D4950E81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9944D1FAA43825D333E64715B876FB37 /* Foundation.framework */; };
+		2E7D3FF495EFE3E9D9DFDD72E6C0C86E /* Player.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB6FD150653557151EFE9D25E5BAE189 /* Player.framework */; };
+		2FD5BBDD7C372676DA10198BEB8F0F54 /* CardHighlight.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD3F2964F9AE18AFCC374E59FBF7D1E /* CardHighlight.swift */; };
+		371597BF5A37112ECDBD38D03C533F29 /* Player-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C5BADD84523C10927C31D0698C401C76 /* Player-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		422F1219BEF69EF2C3A5011837CE5F2E /* Pods-NewsCards-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FD7E5BBE475879D169ABA2B8AD070693 /* Pods-NewsCards-dummy.m */; };
+		5989A1D1327A48EE4A076E8B11B237D4 /* CardArticle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567610096D1D86305E48CC08B1EAD006 /* CardArticle.swift */; };
+		64BBE44EA76389FD3D50C81CA76BB088 /* LayoutHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F244E6C36B7220912B0120CD6583AD9 /* LayoutHelper.swift */; };
+		67D24C542B4242549B62E068E70D9035 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9944D1FAA43825D333E64715B876FB37 /* Foundation.framework */; };
+		689AAA58B4019DFBD66D3B5EAE838D87 /* Pods-NewsCards-NewsCardsUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E9BAF804782D8AA4B3099268E036E87 /* Pods-NewsCards-NewsCardsUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B3F5F10EF50174B7B0BD3FB3747196F /* CardPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1F2C6A2EC2968896C9E92D514A088A /* CardPlayer.swift */; };
+		7B3A1683A8EF88927E10681BD5DB24F9 /* Cards-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C2192D58FFA61B9719E43BB3D51A345E /* Cards-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89DBF46DDDAFF5844298B1A0A8BCC3EF /* Pods-NewsCards-NewsCardsUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ECAE90B5F86D601522B1464EF9001D0 /* Pods-NewsCards-NewsCardsUITests-dummy.m */; };
+		8B41ED1BFC2FBDA87DB53DEC63A632AE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59021F28D161E5688A55459C69333B93 /* UIKit.framework */; };
+		92C8AC89AA02B24C1C6BF1C9A14FF678 /* Pods-NewsCardsTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 217EB13C5F8CF27491CBAF6C4ACDB6BD /* Pods-NewsCardsTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		93B8E89544C05866D6157C59CAC0E54D /* Pods-NewsCardsTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F8F4B62A9BE327218035A7497C865E04 /* Pods-NewsCardsTests-dummy.m */; };
+		99E810CCDDB10DD107B6E4614A0BDD1B /* Pods-NewsCards-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FA854F924E42CCA39988856CC5FDB048 /* Pods-NewsCards-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B10BB95C3982D110B270B62A2FD7FC7 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830082F38B4D1A16A97FD0A03846C036 /* Player.swift */; };
+		B4E5F694573EEE947E26E46460256E05 /* Animator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E1D642B4DED1205AE33E32BAB50D69 /* Animator.swift */; };
+		CE5C669B6B1B3A3EB5E5A80D273BA743 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7017005D3F716C38AE25788925AF178 /* Card.swift */; };
+		DC17E0741EB23E089F4B952B2760F3C1 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F44B638B8C7946D67856771D1560B37 /* DetailViewController.swift */; };
+		DF255447D3B223248F757B8A5CB398FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9944D1FAA43825D333E64715B876FB37 /* Foundation.framework */; };
+		E8FDAD2AB63FF6E2CBBB8FA9A65C99A3 /* Cards-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0714890BF992EBE0DD0B73A936F69194 /* Cards-dummy.m */; };
+		E97D1B2CD86140E20A9473DDC766519C /* CardGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4239326BA4D7759403BD44BE08FC9E9 /* CardGroup.swift */; };
+		ED847AC067ED129D11D1AA710DA6A124 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9944D1FAA43825D333E64715B876FB37 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,54 +44,119 @@
 			remoteGlobalIDString = B393D9A8415F57BD61B93CE953E90186;
 			remoteInfo = "Pods-NewsCards";
 		};
+		532A0F16673F6E249ACE3EFEF78ECDF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95686D88267B7D426C897EA9E91FC217;
+			remoteInfo = Cards;
+		};
+		B85D935AE25A87E9677E72C44BE2DCA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3566CE7721250363BAE931141A0703B1;
+			remoteInfo = Player;
+		};
+		DF2CDB431E8AA454D6E0DFA1BEA726E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3566CE7721250363BAE931141A0703B1;
+			remoteInfo = Player;
+		};
+		E09E6670D1BC2AE9CEAB509CC5B6CABD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95686D88267B7D426C897EA9E91FC217;
+			remoteInfo = Cards;
+		};
+		F7048A7FACA1904B5A8730A6A2D3FB6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3566CE7721250363BAE931141A0703B1;
+			remoteInfo = Player;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00C098FA63EFD2CECA1F76773B52591F /* Pods-NewsCards-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NewsCards-Info.plist"; sourceTree = "<group>"; };
-		062EC8B299B3280067F037A559AB5B6F /* Pods-NewsCards-NewsCardsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NewsCards-NewsCardsUITests.release.xcconfig"; sourceTree = "<group>"; };
-		0E5D1B8B8749475846D27A77B1AFA70F /* Pods-NewsCards-NewsCardsUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NewsCards-NewsCardsUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		1CE4760413356DDAE6B05A0B457C6E2E /* Pods-NewsCardsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NewsCardsTests.debug.xcconfig"; sourceTree = "<group>"; };
-		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		452FE12B9BC1BBEC691E64ADC15DFD2A /* Pods-NewsCards-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NewsCards-acknowledgements.plist"; sourceTree = "<group>"; };
-		51E5DD8FF567164AB38D1E28E6A00E75 /* Pods-NewsCardsTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NewsCardsTests-umbrella.h"; sourceTree = "<group>"; };
-		52280F7898CB1124F81F426026C47D6E /* Pods-NewsCards-NewsCardsUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NewsCards-NewsCardsUITests-umbrella.h"; sourceTree = "<group>"; };
-		54D69D321C8B56CAC631DAEE6EBA23C4 /* Pods-NewsCards-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NewsCards-acknowledgements.markdown"; sourceTree = "<group>"; };
-		71174536EF47FE64C4CF03FFC30D427F /* Pods-NewsCardsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NewsCardsTests.release.xcconfig"; sourceTree = "<group>"; };
-		71CE9407CF73E9FF465E0EEC20A18F15 /* Pods-NewsCards-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NewsCards-dummy.m"; sourceTree = "<group>"; };
-		826A96C093C2EE43EB29C486C95B8AB0 /* Pods-NewsCards.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NewsCards.modulemap"; sourceTree = "<group>"; };
-		831D8EDA8049ACDF648D96838DA1BAE4 /* Pods-NewsCards.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NewsCards.debug.xcconfig"; sourceTree = "<group>"; };
-		93B11D676A037B445B3A5F490DE0D453 /* Pods-NewsCardsTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NewsCardsTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		04D252DC18055B27989FFBECEBF5D4DD /* Cards.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Cards.modulemap; sourceTree = "<group>"; };
+		0714890BF992EBE0DD0B73A936F69194 /* Cards-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Cards-dummy.m"; sourceTree = "<group>"; };
+		0B0AA2C57EA94BC79D844D3DD64BD9A8 /* Cards-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Cards-Info.plist"; sourceTree = "<group>"; };
+		0D8E2DF3FA2503625B9560413FCE04DA /* Player-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Player-Info.plist"; sourceTree = "<group>"; };
+		105DFAC3B092E0366978BF9B9CC6B505 /* Pods-NewsCards-NewsCardsUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NewsCards-NewsCardsUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		117EA21546731A278E1FAF8C0AA03B1E /* Pods-NewsCards-NewsCardsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NewsCards-NewsCardsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		15F61B01E31C314C304DF4785B45EAFB /* Cards.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Cards.release.xcconfig; sourceTree = "<group>"; };
+		171DE4E522D87369CC93DF05A8D3D9C3 /* Player-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Player-prefix.pch"; sourceTree = "<group>"; };
+		1ECAE90B5F86D601522B1464EF9001D0 /* Pods-NewsCards-NewsCardsUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NewsCards-NewsCardsUITests-dummy.m"; sourceTree = "<group>"; };
+		1EF6E549FDC5D75A4A358AB9521BF2DD /* Pods-NewsCards-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NewsCards-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1F44B638B8C7946D67856771D1560B37 /* DetailViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DetailViewController.swift; path = Cards/Sources/DetailViewController.swift; sourceTree = "<group>"; };
+		217EB13C5F8CF27491CBAF6C4ACDB6BD /* Pods-NewsCardsTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NewsCardsTests-umbrella.h"; sourceTree = "<group>"; };
+		299ED72CF2B6501FB2D97162E22BC96E /* CardGroupSliding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CardGroupSliding.swift; path = Cards/Sources/CardGroupSliding.swift; sourceTree = "<group>"; };
+		3146861B958806E2B5C76A9FFE95D127 /* Pods-NewsCardsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NewsCardsTests.release.xcconfig"; sourceTree = "<group>"; };
+		373CB8D2BEACA4B47B36D3A4A22D9001 /* Pods-NewsCards.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NewsCards.release.xcconfig"; sourceTree = "<group>"; };
+		4543510D58A5FAC322147FB2FD604D96 /* Pods-NewsCards-NewsCardsUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NewsCards-NewsCardsUITests.modulemap"; sourceTree = "<group>"; };
+		4F244E6C36B7220912B0120CD6583AD9 /* LayoutHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutHelper.swift; path = Cards/Sources/LayoutHelper.swift; sourceTree = "<group>"; };
+		567610096D1D86305E48CC08B1EAD006 /* CardArticle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CardArticle.swift; path = Cards/Sources/CardArticle.swift; sourceTree = "<group>"; };
+		59021F28D161E5688A55459C69333B93 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		5C08AE3835639A2111ACBCE5382CE742 /* Player.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Player.framework; path = Player.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E1CF9FE333EB37BC63F9DD56699209B /* Cards-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Cards-prefix.pch"; sourceTree = "<group>"; };
+		5E9BAF804782D8AA4B3099268E036E87 /* Pods-NewsCards-NewsCardsUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NewsCards-NewsCardsUITests-umbrella.h"; sourceTree = "<group>"; };
+		5F217DE954C9EA8C12F858232EDB32E4 /* Player.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Player.release.xcconfig; sourceTree = "<group>"; };
+		627B4E8EB74D1EBC369A3F683A0CCA9F /* Pods-NewsCardsTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NewsCardsTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		63E9A6F581C7F989115C54A9630A13FD /* Pods-NewsCards-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NewsCards-frameworks.sh"; sourceTree = "<group>"; };
+		6C9C3A7AABF65F5F88641CF2BCB40FE4 /* Pods-NewsCards.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NewsCards.debug.xcconfig"; sourceTree = "<group>"; };
+		830082F38B4D1A16A97FD0A03846C036 /* Player.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Player.swift; path = Sources/Player.swift; sourceTree = "<group>"; };
+		9340DD243360EB08AC98BC06151B31A2 /* Pods-NewsCards-NewsCardsUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NewsCards-NewsCardsUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		948FC1B7480D52E74EAAA262AC680739 /* Pods_NewsCards.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NewsCards.framework; path = "Pods-NewsCards.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		980DEDF922D4404A82E2D2B541FA1013 /* Pods-NewsCards-NewsCardsUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NewsCards-NewsCardsUITests.modulemap"; sourceTree = "<group>"; };
+		98F288333EBAFCA6C30215918C0AA19E /* Player.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Player.modulemap; sourceTree = "<group>"; };
+		9944D1FAA43825D333E64715B876FB37 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A82307FFFE29E6E1174F595D30D70DED /* Pods-NewsCards-NewsCardsUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NewsCards-NewsCardsUITests-dummy.m"; sourceTree = "<group>"; };
-		B549626D5BDE8675B85930582517FEC4 /* Pods-NewsCardsTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NewsCardsTests-Info.plist"; sourceTree = "<group>"; };
-		BE9872EB5DA39B7CF099EE5F02DC32FA /* Pods-NewsCardsTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NewsCardsTests.modulemap"; sourceTree = "<group>"; };
-		C95C79546898C49ADD42638997D22672 /* Pods-NewsCardsTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NewsCardsTests-dummy.m"; sourceTree = "<group>"; };
+		AA1F2C6A2EC2968896C9E92D514A088A /* CardPlayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CardPlayer.swift; path = Cards/Sources/CardPlayer.swift; sourceTree = "<group>"; };
+		B3A59E9F17DC4B133CAD10A518EEA264 /* Pods-NewsCards-NewsCardsUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NewsCards-NewsCardsUITests-Info.plist"; sourceTree = "<group>"; };
+		B4239326BA4D7759403BD44BE08FC9E9 /* CardGroup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CardGroup.swift; path = Cards/Sources/CardGroup.swift; sourceTree = "<group>"; };
+		B4CEB06DC5008DB0C7610F03D8F16A03 /* Pods-NewsCards-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NewsCards-Info.plist"; sourceTree = "<group>"; };
+		B66A216CF6100BCCC9E417C449C2C3A5 /* Pods-NewsCards-NewsCardsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NewsCards-NewsCardsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B7017005D3F716C38AE25788925AF178 /* Card.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Card.swift; path = Cards/Sources/Card.swift; sourceTree = "<group>"; };
+		BA403A55569BE6DB91C1683ED8934A10 /* Pods-NewsCardsTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NewsCardsTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BA8249BD8889320E29F21F7654F44D87 /* Pods-NewsCardsTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NewsCardsTests-Info.plist"; sourceTree = "<group>"; };
+		BAEF27659C29843ECC7EF4F41CCCC807 /* Player-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Player-dummy.m"; sourceTree = "<group>"; };
+		C2192D58FFA61B9719E43BB3D51A345E /* Cards-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Cards-umbrella.h"; sourceTree = "<group>"; };
+		C4E1D642B4DED1205AE33E32BAB50D69 /* Animator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Animator.swift; path = Cards/Sources/Animator.swift; sourceTree = "<group>"; };
+		C5BADD84523C10927C31D0698C401C76 /* Player-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Player-umbrella.h"; sourceTree = "<group>"; };
+		C8C67ED624825DC6AD02DA578FE5FDAD /* Pods-NewsCards-NewsCardsUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NewsCards-NewsCardsUITests-frameworks.sh"; sourceTree = "<group>"; };
+		C8E5AB6BBB3A6D5D90E23CF6CB47087D /* Cards.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Cards.debug.xcconfig; sourceTree = "<group>"; };
+		D6A37BF0AAB5B3E02A4E39791D399412 /* Pods-NewsCardsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NewsCardsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D9F548D4A01EF68F74FB1AD3F77F41EC /* Pods_NewsCards_NewsCardsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NewsCards_NewsCardsUITests.framework; path = "Pods-NewsCards-NewsCardsUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DA13D87BC90377DDE7F6507E5885119F /* Pods-NewsCards-NewsCardsUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NewsCards-NewsCardsUITests-Info.plist"; sourceTree = "<group>"; };
-		E4597331C773334F39498837FB5DA26D /* Pods-NewsCards-NewsCardsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NewsCards-NewsCardsUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		E9BE7338AA3F8904F4EA15E59DD43349 /* Pods-NewsCardsTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NewsCardsTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F515E4D561B88BBFCC7AE2E8B974C6CF /* Pods-NewsCards-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NewsCards-umbrella.h"; sourceTree = "<group>"; };
-		F76D2EB57C75CE09BB17AAD87D27E90A /* Pods-NewsCards.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NewsCards.release.xcconfig"; sourceTree = "<group>"; };
-		F9245482A325B4118889651FE5840FAD /* Pods-NewsCards-NewsCardsUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NewsCards-NewsCardsUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		DDA8938DBC4D182296E0493EC0FFBEC9 /* Pods-NewsCards-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NewsCards-acknowledgements.plist"; sourceTree = "<group>"; };
+		E04AEC9E4ADFC36469C4E9E8DCB1A288 /* Player.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Player.debug.xcconfig; sourceTree = "<group>"; };
+		E9501A13144B7DB4F79009F54D3310DE /* Pods-NewsCardsTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NewsCardsTests.modulemap"; sourceTree = "<group>"; };
+		EAD3F2964F9AE18AFCC374E59FBF7D1E /* CardHighlight.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CardHighlight.swift; path = Cards/Sources/CardHighlight.swift; sourceTree = "<group>"; };
+		EB6FD150653557151EFE9D25E5BAE189 /* Player.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Player.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC7F06F364614C51E830F26C60172A0B /* Cards.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Cards.framework; path = Cards.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F51237529C208DA7E46D656B925D4734 /* Pods-NewsCards.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NewsCards.modulemap"; sourceTree = "<group>"; };
+		F8F4B62A9BE327218035A7497C865E04 /* Pods-NewsCardsTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NewsCardsTests-dummy.m"; sourceTree = "<group>"; };
+		FA854F924E42CCA39988856CC5FDB048 /* Pods-NewsCards-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NewsCards-umbrella.h"; sourceTree = "<group>"; };
 		FC71505F927732275C49081C7C551714 /* Pods_NewsCardsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NewsCardsTests.framework; path = "Pods-NewsCardsTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD7E5BBE475879D169ABA2B8AD070693 /* Pods-NewsCards-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NewsCards-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		065960830EC39D521BAA92AD39B91648 /* Frameworks */ = {
+		7D3590E893E95E6F37121606B19CD441 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D33141387658F798638F6E947871157 /* Foundation.framework in Frameworks */,
+				67D24C542B4242549B62E068E70D9035 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		193171D307841AB020AB7E69B41AB32D /* Frameworks */ = {
+		84295094DA19FD3C8E6777CC86A2AAF9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FDCF8B77F6CAE6B1BBD43F25D55277FB /* Foundation.framework in Frameworks */,
+				25D2782FC8F594429CE77E90D4950E81 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,12 +168,120 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A94E8914C6F3194AD4DA1E235AD07707 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18787234C8B77DCAC75D685F7B606331 /* Foundation.framework in Frameworks */,
+				2E7D3FF495EFE3E9D9DFDD72E6C0C86E /* Player.framework in Frameworks */,
+				8B41ED1BFC2FBDA87DB53DEC63A632AE /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC50993474D80823894F57C8EFE60657 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF255447D3B223248F757B8A5CB398FB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3FFFA3344FFA8FEA5EE3DD2BBF7EC8C7 /* Products */ = {
+		05B29E19659B85BDBACFE4F98E5F2D91 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
+				04D252DC18055B27989FFBECEBF5D4DD /* Cards.modulemap */,
+				0714890BF992EBE0DD0B73A936F69194 /* Cards-dummy.m */,
+				0B0AA2C57EA94BC79D844D3DD64BD9A8 /* Cards-Info.plist */,
+				5E1CF9FE333EB37BC63F9DD56699209B /* Cards-prefix.pch */,
+				C2192D58FFA61B9719E43BB3D51A345E /* Cards-umbrella.h */,
+				C8E5AB6BBB3A6D5D90E23CF6CB47087D /* Cards.debug.xcconfig */,
+				15F61B01E31C314C304DF4785B45EAFB /* Cards.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Cards";
+			sourceTree = "<group>";
+		};
+		09F1A92263193536491D8486B1441D30 /* Pods-NewsCards-NewsCardsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4543510D58A5FAC322147FB2FD604D96 /* Pods-NewsCards-NewsCardsUITests.modulemap */,
+				9340DD243360EB08AC98BC06151B31A2 /* Pods-NewsCards-NewsCardsUITests-acknowledgements.markdown */,
+				105DFAC3B092E0366978BF9B9CC6B505 /* Pods-NewsCards-NewsCardsUITests-acknowledgements.plist */,
+				1ECAE90B5F86D601522B1464EF9001D0 /* Pods-NewsCards-NewsCardsUITests-dummy.m */,
+				C8C67ED624825DC6AD02DA578FE5FDAD /* Pods-NewsCards-NewsCardsUITests-frameworks.sh */,
+				B3A59E9F17DC4B133CAD10A518EEA264 /* Pods-NewsCards-NewsCardsUITests-Info.plist */,
+				5E9BAF804782D8AA4B3099268E036E87 /* Pods-NewsCards-NewsCardsUITests-umbrella.h */,
+				117EA21546731A278E1FAF8C0AA03B1E /* Pods-NewsCards-NewsCardsUITests.debug.xcconfig */,
+				B66A216CF6100BCCC9E417C449C2C3A5 /* Pods-NewsCards-NewsCardsUITests.release.xcconfig */,
+			);
+			name = "Pods-NewsCards-NewsCardsUITests";
+			path = "Target Support Files/Pods-NewsCards-NewsCardsUITests";
+			sourceTree = "<group>";
+		};
+		1FAF54982D7FB4879C3C3298E58A8573 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				9944D1FAA43825D333E64715B876FB37 /* Foundation.framework */,
+				59021F28D161E5688A55459C69333B93 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		2CAB8EFBAD19297FA2B83671EB8650A0 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB376B23E444435A9345A197739BC8E7 /* Pods-NewsCards */,
+				09F1A92263193536491D8486B1441D30 /* Pods-NewsCards-NewsCardsUITests */,
+				E1C543D6C1DA5FBFA712B58DE3433F07 /* Pods-NewsCardsTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		684958127A8B200FC252A251DB958DB3 /* Cards */ = {
+			isa = PBXGroup;
+			children = (
+				C4E1D642B4DED1205AE33E32BAB50D69 /* Animator.swift */,
+				B7017005D3F716C38AE25788925AF178 /* Card.swift */,
+				567610096D1D86305E48CC08B1EAD006 /* CardArticle.swift */,
+				B4239326BA4D7759403BD44BE08FC9E9 /* CardGroup.swift */,
+				299ED72CF2B6501FB2D97162E22BC96E /* CardGroupSliding.swift */,
+				EAD3F2964F9AE18AFCC374E59FBF7D1E /* CardHighlight.swift */,
+				AA1F2C6A2EC2968896C9E92D514A088A /* CardPlayer.swift */,
+				1F44B638B8C7946D67856771D1560B37 /* DetailViewController.swift */,
+				4F244E6C36B7220912B0120CD6583AD9 /* LayoutHelper.swift */,
+				05B29E19659B85BDBACFE4F98E5F2D91 /* Support Files */,
+			);
+			name = Cards;
+			path = Cards;
+			sourceTree = "<group>";
+		};
+		7AAC68EB11CD3BDD15E271F37999B5C5 /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				830082F38B4D1A16A97FD0A03846C036 /* Player.swift */,
+				C176B233D448DFE4968168B99764938D /* Support Files */,
+			);
+			name = Player;
+			path = Player;
+			sourceTree = "<group>";
+		};
+		8FF7A42BD31A87361F0E259B81B8B7CF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				684958127A8B200FC252A251DB958DB3 /* Cards */,
+				7AAC68EB11CD3BDD15E271F37999B5C5 /* Player */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		ACF03AD159A1DDE3722875D61C30AC07 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC7F06F364614C51E830F26C60172A0B /* Cards.framework */,
+				5C08AE3835639A2111ACBCE5382CE742 /* Player.framework */,
 				948FC1B7480D52E74EAAA262AC680739 /* Pods_NewsCards.framework */,
 				D9F548D4A01EF68F74FB1AD3F77F41EC /* Pods_NewsCards_NewsCardsUITests.framework */,
 				FC71505F927732275C49081C7C551714 /* Pods_NewsCardsTests.framework */,
@@ -98,98 +289,106 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5DD3B32BAC87C8925C06C9B8444C903B /* Pods-NewsCardsTests */ = {
+		C176B233D448DFE4968168B99764938D /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				BE9872EB5DA39B7CF099EE5F02DC32FA /* Pods-NewsCardsTests.modulemap */,
-				E9BE7338AA3F8904F4EA15E59DD43349 /* Pods-NewsCardsTests-acknowledgements.markdown */,
-				93B11D676A037B445B3A5F490DE0D453 /* Pods-NewsCardsTests-acknowledgements.plist */,
-				C95C79546898C49ADD42638997D22672 /* Pods-NewsCardsTests-dummy.m */,
-				B549626D5BDE8675B85930582517FEC4 /* Pods-NewsCardsTests-Info.plist */,
-				51E5DD8FF567164AB38D1E28E6A00E75 /* Pods-NewsCardsTests-umbrella.h */,
-				1CE4760413356DDAE6B05A0B457C6E2E /* Pods-NewsCardsTests.debug.xcconfig */,
-				71174536EF47FE64C4CF03FFC30D427F /* Pods-NewsCardsTests.release.xcconfig */,
+				98F288333EBAFCA6C30215918C0AA19E /* Player.modulemap */,
+				BAEF27659C29843ECC7EF4F41CCCC807 /* Player-dummy.m */,
+				0D8E2DF3FA2503625B9560413FCE04DA /* Player-Info.plist */,
+				171DE4E522D87369CC93DF05A8D3D9C3 /* Player-prefix.pch */,
+				C5BADD84523C10927C31D0698C401C76 /* Player-umbrella.h */,
+				E04AEC9E4ADFC36469C4E9E8DCB1A288 /* Player.debug.xcconfig */,
+				5F217DE954C9EA8C12F858232EDB32E4 /* Player.release.xcconfig */,
 			);
-			name = "Pods-NewsCardsTests";
-			path = "Target Support Files/Pods-NewsCardsTests";
-			sourceTree = "<group>";
-		};
-		7D6FEC31ED8EB71CC972A7919DE5DBCF /* Pods-NewsCards-NewsCardsUITests */ = {
-			isa = PBXGroup;
-			children = (
-				980DEDF922D4404A82E2D2B541FA1013 /* Pods-NewsCards-NewsCardsUITests.modulemap */,
-				0E5D1B8B8749475846D27A77B1AFA70F /* Pods-NewsCards-NewsCardsUITests-acknowledgements.markdown */,
-				F9245482A325B4118889651FE5840FAD /* Pods-NewsCards-NewsCardsUITests-acknowledgements.plist */,
-				A82307FFFE29E6E1174F595D30D70DED /* Pods-NewsCards-NewsCardsUITests-dummy.m */,
-				DA13D87BC90377DDE7F6507E5885119F /* Pods-NewsCards-NewsCardsUITests-Info.plist */,
-				52280F7898CB1124F81F426026C47D6E /* Pods-NewsCards-NewsCardsUITests-umbrella.h */,
-				E4597331C773334F39498837FB5DA26D /* Pods-NewsCards-NewsCardsUITests.debug.xcconfig */,
-				062EC8B299B3280067F037A559AB5B6F /* Pods-NewsCards-NewsCardsUITests.release.xcconfig */,
-			);
-			name = "Pods-NewsCards-NewsCardsUITests";
-			path = "Target Support Files/Pods-NewsCards-NewsCardsUITests";
-			sourceTree = "<group>";
-		};
-		AA4656FEA4A0F965B85D49E65121DBAD /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				C1E7541D790DECFE97E3947815148B18 /* Pods-NewsCards */,
-				7D6FEC31ED8EB71CC972A7919DE5DBCF /* Pods-NewsCards-NewsCardsUITests */,
-				5DD3B32BAC87C8925C06C9B8444C903B /* Pods-NewsCardsTests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		C1E7541D790DECFE97E3947815148B18 /* Pods-NewsCards */ = {
-			isa = PBXGroup;
-			children = (
-				826A96C093C2EE43EB29C486C95B8AB0 /* Pods-NewsCards.modulemap */,
-				54D69D321C8B56CAC631DAEE6EBA23C4 /* Pods-NewsCards-acknowledgements.markdown */,
-				452FE12B9BC1BBEC691E64ADC15DFD2A /* Pods-NewsCards-acknowledgements.plist */,
-				71CE9407CF73E9FF465E0EEC20A18F15 /* Pods-NewsCards-dummy.m */,
-				00C098FA63EFD2CECA1F76773B52591F /* Pods-NewsCards-Info.plist */,
-				F515E4D561B88BBFCC7AE2E8B974C6CF /* Pods-NewsCards-umbrella.h */,
-				831D8EDA8049ACDF648D96838DA1BAE4 /* Pods-NewsCards.debug.xcconfig */,
-				F76D2EB57C75CE09BB17AAD87D27E90A /* Pods-NewsCards.release.xcconfig */,
-			);
-			name = "Pods-NewsCards";
-			path = "Target Support Files/Pods-NewsCards";
+			name = "Support Files";
+			path = "../Target Support Files/Player";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				3FFFA3344FFA8FEA5EE3DD2BBF7EC8C7 /* Products */,
-				AA4656FEA4A0F965B85D49E65121DBAD /* Targets Support Files */,
+				E49263A2C7CF4DBEA339DA9D1BB6CD5A /* Frameworks */,
+				8FF7A42BD31A87361F0E259B81B8B7CF /* Pods */,
+				ACF03AD159A1DDE3722875D61C30AC07 /* Products */,
+				2CAB8EFBAD19297FA2B83671EB8650A0 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+		E1C543D6C1DA5FBFA712B58DE3433F07 /* Pods-NewsCardsTests */ = {
 			isa = PBXGroup;
 			children = (
-				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+				E9501A13144B7DB4F79009F54D3310DE /* Pods-NewsCardsTests.modulemap */,
+				BA403A55569BE6DB91C1683ED8934A10 /* Pods-NewsCardsTests-acknowledgements.markdown */,
+				627B4E8EB74D1EBC369A3F683A0CCA9F /* Pods-NewsCardsTests-acknowledgements.plist */,
+				F8F4B62A9BE327218035A7497C865E04 /* Pods-NewsCardsTests-dummy.m */,
+				BA8249BD8889320E29F21F7654F44D87 /* Pods-NewsCardsTests-Info.plist */,
+				217EB13C5F8CF27491CBAF6C4ACDB6BD /* Pods-NewsCardsTests-umbrella.h */,
+				D6A37BF0AAB5B3E02A4E39791D399412 /* Pods-NewsCardsTests.debug.xcconfig */,
+				3146861B958806E2B5C76A9FFE95D127 /* Pods-NewsCardsTests.release.xcconfig */,
+			);
+			name = "Pods-NewsCardsTests";
+			path = "Target Support Files/Pods-NewsCardsTests";
+			sourceTree = "<group>";
+		};
+		E49263A2C7CF4DBEA339DA9D1BB6CD5A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EB6FD150653557151EFE9D25E5BAE189 /* Player.framework */,
+				1FAF54982D7FB4879C3C3298E58A8573 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB376B23E444435A9345A197739BC8E7 /* Pods-NewsCards */ = {
+			isa = PBXGroup;
+			children = (
+				F51237529C208DA7E46D656B925D4734 /* Pods-NewsCards.modulemap */,
+				1EF6E549FDC5D75A4A358AB9521BF2DD /* Pods-NewsCards-acknowledgements.markdown */,
+				DDA8938DBC4D182296E0493EC0FFBEC9 /* Pods-NewsCards-acknowledgements.plist */,
+				FD7E5BBE475879D169ABA2B8AD070693 /* Pods-NewsCards-dummy.m */,
+				63E9A6F581C7F989115C54A9630A13FD /* Pods-NewsCards-frameworks.sh */,
+				B4CEB06DC5008DB0C7610F03D8F16A03 /* Pods-NewsCards-Info.plist */,
+				FA854F924E42CCA39988856CC5FDB048 /* Pods-NewsCards-umbrella.h */,
+				6C9C3A7AABF65F5F88641CF2BCB40FE4 /* Pods-NewsCards.debug.xcconfig */,
+				373CB8D2BEACA4B47B36D3A4A22D9001 /* Pods-NewsCards.release.xcconfig */,
+			);
+			name = "Pods-NewsCards";
+			path = "Target Support Files/Pods-NewsCards";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		7E27067C115026B9532D1CE83DB2DB54 /* Headers */ = {
+		0D4B47655DFFD6FB91C07077E1F59332 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1EFA192BF34F082FE017B2232C7D2B1C /* Pods-NewsCards-NewsCardsUITests-umbrella.h in Headers */,
+				689AAA58B4019DFBD66D3B5EAE838D87 /* Pods-NewsCards-NewsCardsUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39277958AB906D35E3AC774B52979F2D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B3A1683A8EF88927E10681BD5DB24F9 /* Cards-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E8D73125DD6A7A548816A90FBF23C6A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99E810CCDDB10DD107B6E4614A0BDD1B /* Pods-NewsCards-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A6951A536E0BAD54711A53F39908D86 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				371597BF5A37112ECDBD38D03C533F29 /* Player-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,29 +400,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E5DDD0BA9EBC6549D9BCAE46CC7EC617 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B7362BD7AB724C766DDBE9F639DBD1BD /* Pods-NewsCards-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		07A79E6541F80C0ABA6A0E0B2D25BBE7 /* Pods-NewsCards-NewsCardsUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EBF0E03DACEEBC0E8886D0B46CADDB1B /* Build configuration list for PBXNativeTarget "Pods-NewsCards-NewsCardsUITests" */;
+			buildConfigurationList = 8F6AEC52C91B353BE9B9654A772927B5 /* Build configuration list for PBXNativeTarget "Pods-NewsCards-NewsCardsUITests" */;
 			buildPhases = (
-				7E27067C115026B9532D1CE83DB2DB54 /* Headers */,
-				EF3EED8E187E46D9A2ADC5BE822D219C /* Sources */,
-				065960830EC39D521BAA92AD39B91648 /* Frameworks */,
-				6D982DCAEC210BEAE8CBCE7E26B9C74B /* Resources */,
+				0D4B47655DFFD6FB91C07077E1F59332 /* Headers */,
+				FF2E772F2F88BB1CBF0812104B891F67 /* Sources */,
+				7D3590E893E95E6F37121606B19CD441 /* Frameworks */,
+				EE17CB8DCBECC36EECA5C9A9BAE8B2D5 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				5694A7E4402409B864C9A405F8C694FA /* PBXTargetDependency */,
+				FE2936A246773B839F77AAC9E4F8BD6E /* PBXTargetDependency */,
 			);
 			name = "Pods-NewsCards-NewsCardsUITests";
 			productName = "Pods-NewsCards-NewsCardsUITests";
@@ -249,18 +442,57 @@
 			productReference = FC71505F927732275C49081C7C551714 /* Pods_NewsCardsTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		B393D9A8415F57BD61B93CE953E90186 /* Pods-NewsCards */ = {
+		3566CE7721250363BAE931141A0703B1 /* Player */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3B56347416FAAE05B6B29BEF7B21638D /* Build configuration list for PBXNativeTarget "Pods-NewsCards" */;
+			buildConfigurationList = 8AB44A9E826DF1C1E7ACD42F3033784E /* Build configuration list for PBXNativeTarget "Player" */;
 			buildPhases = (
-				E5DDD0BA9EBC6549D9BCAE46CC7EC617 /* Headers */,
-				9BFE19E4E1C1ACE422283A3AF18DFD3D /* Sources */,
-				193171D307841AB020AB7E69B41AB32D /* Frameworks */,
-				E7963E2441C679F868CBEE3C6BD56CF8 /* Resources */,
+				5A6951A536E0BAD54711A53F39908D86 /* Headers */,
+				962C89715A8C1646F8257C3ED8C48ED9 /* Sources */,
+				FC50993474D80823894F57C8EFE60657 /* Frameworks */,
+				8DD7241B4B6E88212EEC55F46977931A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+			);
+			name = Player;
+			productName = Player;
+			productReference = 5C08AE3835639A2111ACBCE5382CE742 /* Player.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		95686D88267B7D426C897EA9E91FC217 /* Cards */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95BB95BCFB59DAF26248D3078B2A2924 /* Build configuration list for PBXNativeTarget "Cards" */;
+			buildPhases = (
+				39277958AB906D35E3AC774B52979F2D /* Headers */,
+				051CDCAFEBA54C67C02770D380192AD1 /* Sources */,
+				A94E8914C6F3194AD4DA1E235AD07707 /* Frameworks */,
+				345B3B0C9BA517FC2DD682878477C204 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2CC598B0AE1BC3047CB6DB066178C177 /* PBXTargetDependency */,
+			);
+			name = Cards;
+			productName = Cards;
+			productReference = EC7F06F364614C51E830F26C60172A0B /* Cards.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B393D9A8415F57BD61B93CE953E90186 /* Pods-NewsCards */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E7642150C53017B5CF1B7EB6EC77063 /* Build configuration list for PBXNativeTarget "Pods-NewsCards" */;
+			buildPhases = (
+				4E8D73125DD6A7A548816A90FBF23C6A /* Headers */,
+				8C7BE735B365D6561935ECAEC9F0FB53 /* Sources */,
+				84295094DA19FD3C8E6777CC86A2AAF9 /* Frameworks */,
+				98A4D00FA3402CB5F55BBACD6CE53268 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A73B461F37BFF11D835AE9505F5584B2 /* PBXTargetDependency */,
+				E5AE462A040A733187FD5699B45FED5C /* PBXTargetDependency */,
 			);
 			name = "Pods-NewsCards";
 			productName = "Pods-NewsCards";
@@ -285,10 +517,12 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 3FFFA3344FFA8FEA5EE3DD2BBF7EC8C7 /* Products */;
+			productRefGroup = ACF03AD159A1DDE3722875D61C30AC07 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				95686D88267B7D426C897EA9E91FC217 /* Cards */,
+				3566CE7721250363BAE931141A0703B1 /* Player */,
 				B393D9A8415F57BD61B93CE953E90186 /* Pods-NewsCards */,
 				07A79E6541F80C0ABA6A0E0B2D25BBE7 /* Pods-NewsCards-NewsCardsUITests */,
 				231FDAEC8B45D92E1961E0855215DD5C /* Pods-NewsCardsTests */,
@@ -297,6 +531,13 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		345B3B0C9BA517FC2DD682878477C204 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5BE20C86F9DA39605BC2055BF6D234AB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -304,14 +545,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6D982DCAEC210BEAE8CBCE7E26B9C74B /* Resources */ = {
+		8DD7241B4B6E88212EEC55F46977931A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E7963E2441C679F868CBEE3C6BD56CF8 /* Resources */ = {
+		98A4D00FA3402CB5F55BBACD6CE53268 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE17CB8DCBECC36EECA5C9A9BAE8B2D5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -321,6 +569,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		051CDCAFEBA54C67C02770D380192AD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4E5F694573EEE947E26E46460256E05 /* Animator.swift in Sources */,
+				CE5C669B6B1B3A3EB5E5A80D273BA743 /* Card.swift in Sources */,
+				5989A1D1327A48EE4A076E8B11B237D4 /* CardArticle.swift in Sources */,
+				E97D1B2CD86140E20A9473DDC766519C /* CardGroup.swift in Sources */,
+				1C2E597A8EE3A74F77E9FBD935D0FF6B /* CardGroupSliding.swift in Sources */,
+				2FD5BBDD7C372676DA10198BEB8F0F54 /* CardHighlight.swift in Sources */,
+				6B3F5F10EF50174B7B0BD3FB3747196F /* CardPlayer.swift in Sources */,
+				E8FDAD2AB63FF6E2CBBB8FA9A65C99A3 /* Cards-dummy.m in Sources */,
+				DC17E0741EB23E089F4B952B2760F3C1 /* DetailViewController.swift in Sources */,
+				64BBE44EA76389FD3D50C81CA76BB088 /* LayoutHelper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7F9DC23C10BDA44ABC50221D9B542B88 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -329,34 +594,111 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9BFE19E4E1C1ACE422283A3AF18DFD3D /* Sources */ = {
+		8C7BE735B365D6561935ECAEC9F0FB53 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B808C646A77A0C1B38DF4F3C86F1FA7 /* Pods-NewsCards-dummy.m in Sources */,
+				422F1219BEF69EF2C3A5011837CE5F2E /* Pods-NewsCards-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EF3EED8E187E46D9A2ADC5BE822D219C /* Sources */ = {
+		962C89715A8C1646F8257C3ED8C48ED9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F29C4A44885C40F821980ABE9AFB235A /* Pods-NewsCards-NewsCardsUITests-dummy.m in Sources */,
+				1155EE4D7541D9065486656283FA25F8 /* Player-dummy.m in Sources */,
+				9B10BB95C3982D110B270B62A2FD7FC7 /* Player.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF2E772F2F88BB1CBF0812104B891F67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89DBF46DDDAFF5844298B1A0A8BCC3EF /* Pods-NewsCards-NewsCardsUITests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		2CC598B0AE1BC3047CB6DB066178C177 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Player;
+			target = 3566CE7721250363BAE931141A0703B1 /* Player */;
+			targetProxy = DF2CDB431E8AA454D6E0DFA1BEA726E0 /* PBXContainerItemProxy */;
+		};
 		42F45AE2E16209D4A3919B7533C63681 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-NewsCards";
 			target = B393D9A8415F57BD61B93CE953E90186 /* Pods-NewsCards */;
 			targetProxy = 0E385B9D29591F45F0B117DF9F1B020E /* PBXContainerItemProxy */;
 		};
+		5694A7E4402409B864C9A405F8C694FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Cards;
+			target = 95686D88267B7D426C897EA9E91FC217 /* Cards */;
+			targetProxy = 532A0F16673F6E249ACE3EFEF78ECDF7 /* PBXContainerItemProxy */;
+		};
+		A73B461F37BFF11D835AE9505F5584B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Cards;
+			target = 95686D88267B7D426C897EA9E91FC217 /* Cards */;
+			targetProxy = E09E6670D1BC2AE9CEAB509CC5B6CABD /* PBXContainerItemProxy */;
+		};
+		E5AE462A040A733187FD5699B45FED5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Player;
+			target = 3566CE7721250363BAE931141A0703B1 /* Player */;
+			targetProxy = B85D935AE25A87E9677E72C44BE2DCA9 /* PBXContainerItemProxy */;
+		};
+		FE2936A246773B839F77AAC9E4F8BD6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Player;
+			target = 3566CE7721250363BAE931141A0703B1 /* Player */;
+			targetProxy = F7048A7FACA1904B5A8730A6A2D3FB6A /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		03E333B634E61B7C292CCD75807C3E01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C9C3A7AABF65F5F88641CF2BCB40FE4 /* Pods-NewsCards.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NewsCards/Pods-NewsCards-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NewsCards/Pods-NewsCards.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		185BE20DBDCF3309F79E6192256EF4CA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -421,6 +763,119 @@
 			};
 			name = Debug;
 		};
+		1C2C5714390BA9681C7BEC40FC9C3BCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 373CB8D2BEACA4B47B36D3A4A22D9001 /* Pods-NewsCards.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NewsCards/Pods-NewsCards-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NewsCards/Pods-NewsCards.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		265D9602C94EF721FA4487616662E842 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F217DE954C9EA8C12F858232EDB32E4 /* Player.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Player/Player-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Player/Player-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Player/Player.modulemap";
+				PRODUCT_MODULE_NAME = Player;
+				PRODUCT_NAME = Player;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5E029C21180AFA2F8B6EEE45EED2F76B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 117EA21546731A278E1FAF8C0AA03B1E /* Pods-NewsCards-NewsCardsUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NewsCards-NewsCardsUITests/Pods-NewsCards-NewsCardsUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NewsCards-NewsCardsUITests/Pods-NewsCards-NewsCardsUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		62A8D55F94EA88AF19769F00CF77DF3C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -481,12 +936,10 @@
 			};
 			name = Release;
 		};
-		661F4C3C50CC04D36101BDBF63B80DB3 /* Debug */ = {
+		7595375ADED2F549709B4B84BF35CF58 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 831D8EDA8049ACDF648D96838DA1BAE4 /* Pods-NewsCards.debug.xcconfig */;
+			baseConfigurationReference = E04AEC9E4ADFC36469C4E9E8DCB1A288 /* Player.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -496,35 +949,32 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-NewsCards/Pods-NewsCards-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Player/Player-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Player/Player-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-NewsCards/Pods-NewsCards.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/Player/Player.modulemap";
+				PRODUCT_MODULE_NAME = Player;
+				PRODUCT_NAME = Player;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		69C80698AF70340687CBE627DF61FB6B /* Debug */ = {
+		8DB752D09D47739126C3D8D588E0D016 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E4597331C773334F39498837FB5DA26D /* Pods-NewsCards-NewsCardsUITests.debug.xcconfig */;
+			baseConfigurationReference = C8E5AB6BBB3A6D5D90E23CF6CB47087D /* Cards.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -534,32 +984,31 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-NewsCards-NewsCardsUITests/Pods-NewsCards-NewsCardsUITests-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Cards/Cards-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Cards/Cards-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-NewsCards-NewsCardsUITests/Pods-NewsCards-NewsCardsUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/Cards/Cards.modulemap";
+				PRODUCT_MODULE_NAME = Cards;
+				PRODUCT_NAME = Cards;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		AD5859D49DBFE951D3E67BC564BAA59B /* Release */ = {
+		B5BD5B7F2DB23D6600A1194A406320A8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 062EC8B299B3280067F037A559AB5B6F /* Pods-NewsCards-NewsCardsUITests.release.xcconfig */;
+			baseConfigurationReference = B66A216CF6100BCCC9E417C449C2C3A5 /* Pods-NewsCards-NewsCardsUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -596,12 +1045,10 @@
 			};
 			name = Release;
 		};
-		CC6373BBF54A103EF953004CFD80AD3A /* Release */ = {
+		BA84B80AA315F53642FC1C90E297B8BD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F76D2EB57C75CE09BB17AAD87D27E90A /* Pods-NewsCards.release.xcconfig */;
+			baseConfigurationReference = 15F61B01E31C314C304DF4785B45EAFB /* Cards.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -611,23 +1058,22 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-NewsCards/Pods-NewsCards-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Cards/Cards-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Cards/Cards-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-NewsCards/Pods-NewsCards.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/Cards/Cards.modulemap";
+				PRODUCT_MODULE_NAME = Cards;
+				PRODUCT_NAME = Cards;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -637,7 +1083,7 @@
 		};
 		DFF663637CB8FF67AD34D28AC6F0B9D3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 71174536EF47FE64C4CF03FFC30D427F /* Pods-NewsCardsTests.release.xcconfig */;
+			baseConfigurationReference = 3146861B958806E2B5C76A9FFE95D127 /* Pods-NewsCardsTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -676,7 +1122,7 @@
 		};
 		FF916B8F26C335C2ECE685244323444D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1CE4760413356DDAE6B05A0B457C6E2E /* Pods-NewsCardsTests.debug.xcconfig */;
+			baseConfigurationReference = D6A37BF0AAB5B3E02A4E39791D399412 /* Pods-NewsCardsTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -715,15 +1161,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3B56347416FAAE05B6B29BEF7B21638D /* Build configuration list for PBXNativeTarget "Pods-NewsCards" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				661F4C3C50CC04D36101BDBF63B80DB3 /* Debug */,
-				CC6373BBF54A103EF953004CFD80AD3A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		3D520AB183E51BD0ADFF3D50BBA51979 /* Build configuration list for PBXNativeTarget "Pods-NewsCardsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -742,11 +1179,38 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EBF0E03DACEEBC0E8886D0B46CADDB1B /* Build configuration list for PBXNativeTarget "Pods-NewsCards-NewsCardsUITests" */ = {
+		8AB44A9E826DF1C1E7ACD42F3033784E /* Build configuration list for PBXNativeTarget "Player" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				69C80698AF70340687CBE627DF61FB6B /* Debug */,
-				AD5859D49DBFE951D3E67BC564BAA59B /* Release */,
+				7595375ADED2F549709B4B84BF35CF58 /* Debug */,
+				265D9602C94EF721FA4487616662E842 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E7642150C53017B5CF1B7EB6EC77063 /* Build configuration list for PBXNativeTarget "Pods-NewsCards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03E333B634E61B7C292CCD75807C3E01 /* Debug */,
+				1C2C5714390BA9681C7BEC40FC9C3BCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F6AEC52C91B353BE9B9654A772927B5 /* Build configuration list for PBXNativeTarget "Pods-NewsCards-NewsCardsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E029C21180AFA2F8B6EEE45EED2F76B /* Debug */,
+				B5BD5B7F2DB23D6600A1194A406320A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95BB95BCFB59DAF26248D3078B2A2924 /* Build configuration list for PBXNativeTarget "Cards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DB752D09D47739126C3D8D588E0D016 /* Debug */,
+				BA84B80AA315F53642FC1C90E297B8BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

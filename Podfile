@@ -4,7 +4,7 @@
 target 'NewsCards' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
-
+  pod 'Cards'
   # Pods for NewsCards
 
   target 'NewsCardsTests' do

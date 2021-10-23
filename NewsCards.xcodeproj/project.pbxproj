@@ -3,11 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		539A05E85959F2101F070C97 /* Pods_NewsCards.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3C6A4F4A9EC413D307B139A /* Pods_NewsCards.framework */; };
+		607E551A27243575002116B1 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607E551927243575002116B1 /* CollectionViewCell.swift */; };
 		608D6B12272411DB00EC0DCE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608D6B11272411DB00EC0DCE /* AppDelegate.swift */; };
 		608D6B14272411DB00EC0DCE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608D6B13272411DB00EC0DCE /* SceneDelegate.swift */; };
 		608D6B16272411DB00EC0DCE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608D6B15272411DB00EC0DCE /* ViewController.swift */; };
@@ -44,6 +45,7 @@
 		136FF87B011E830E636CBF69 /* Pods-NewsCardsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewsCardsTests.release.xcconfig"; path = "Target Support Files/Pods-NewsCardsTests/Pods-NewsCardsTests.release.xcconfig"; sourceTree = "<group>"; };
 		5140152906608197A4D0AF2D /* Pods-NewsCards-NewsCardsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewsCards-NewsCardsUITests.release.xcconfig"; path = "Target Support Files/Pods-NewsCards-NewsCardsUITests/Pods-NewsCards-NewsCardsUITests.release.xcconfig"; sourceTree = "<group>"; };
 		5ED13002DF631A89411B74E4 /* Pods_NewsCardsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NewsCardsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		607E551927243575002116B1 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		608D6B0E272411DB00EC0DCE /* NewsCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewsCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		608D6B11272411DB00EC0DCE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		608D6B13272411DB00EC0DCE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -103,8 +105,15 @@
 				B1F7A2F78B8BD73D1FD57036 /* Pods-NewsCardsTests.debug.xcconfig */,
 				136FF87B011E830E636CBF69 /* Pods-NewsCardsTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		607E551827243550002116B1 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				607E551927243575002116B1 /* CollectionViewCell.swift */,
+			);
+			path = cell;
 			sourceTree = "<group>";
 		};
 		608D6B05272411DB00EC0DCE = {
@@ -132,6 +141,7 @@
 		608D6B10272411DB00EC0DCE /* NewsCards */ = {
 			isa = PBXGroup;
 			children = (
+				607E551827243550002116B1 /* cell */,
 				608D6B11272411DB00EC0DCE /* AppDelegate.swift */,
 				608D6B13272411DB00EC0DCE /* SceneDelegate.swift */,
 				608D6B15272411DB00EC0DCE /* ViewController.swift */,
@@ -183,6 +193,7 @@
 				608D6B0A272411DB00EC0DCE /* Sources */,
 				608D6B0B272411DB00EC0DCE /* Frameworks */,
 				608D6B0C272411DB00EC0DCE /* Resources */,
+				FF1FC3338F851F9C3DA1CABE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -220,6 +231,7 @@
 				608D6B2E272411E000EC0DCE /* Sources */,
 				608D6B2F272411E000EC0DCE /* Frameworks */,
 				608D6B30272411E000EC0DCE /* Resources */,
+				955761D139A80C3D4DACAF12 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -345,6 +357,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		955761D139A80C3D4DACAF12 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NewsCards-NewsCardsUITests/Pods-NewsCards-NewsCardsUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NewsCards-NewsCardsUITests/Pods-NewsCards-NewsCardsUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NewsCards-NewsCardsUITests/Pods-NewsCards-NewsCardsUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		9E18B01F24D899721FDCC009 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -367,6 +396,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		FF1FC3338F851F9C3DA1CABE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NewsCards/Pods-NewsCards-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NewsCards/Pods-NewsCards-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NewsCards/Pods-NewsCards-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -374,6 +420,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				607E551A27243575002116B1 /* CollectionViewCell.swift in Sources */,
 				608D6B1C272411DB00EC0DCE /* NewsCards.xcdatamodeld in Sources */,
 				608D6B16272411DB00EC0DCE /* ViewController.swift in Sources */,
 				608D6B12272411DB00EC0DCE /* AppDelegate.swift in Sources */,
