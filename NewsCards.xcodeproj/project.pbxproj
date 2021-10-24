@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		539A05E85959F2101F070C97 /* Pods_NewsCards.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3C6A4F4A9EC413D307B139A /* Pods_NewsCards.framework */; };
 		607E551A27243575002116B1 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607E551927243575002116B1 /* CollectionViewCell.swift */; };
+		607E551E27253854002116B1 /* HeaderCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607E551C27253854002116B1 /* HeaderCollectionReusableView.swift */; };
+		607E551F27253854002116B1 /* HeaderCollectionReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607E551D27253854002116B1 /* HeaderCollectionReusableView.xib */; };
 		608D6B12272411DB00EC0DCE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608D6B11272411DB00EC0DCE /* AppDelegate.swift */; };
 		608D6B14272411DB00EC0DCE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608D6B13272411DB00EC0DCE /* SceneDelegate.swift */; };
 		608D6B16272411DB00EC0DCE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608D6B15272411DB00EC0DCE /* ViewController.swift */; };
@@ -46,6 +48,8 @@
 		5140152906608197A4D0AF2D /* Pods-NewsCards-NewsCardsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewsCards-NewsCardsUITests.release.xcconfig"; path = "Target Support Files/Pods-NewsCards-NewsCardsUITests/Pods-NewsCards-NewsCardsUITests.release.xcconfig"; sourceTree = "<group>"; };
 		5ED13002DF631A89411B74E4 /* Pods_NewsCardsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NewsCardsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607E551927243575002116B1 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		607E551C27253854002116B1 /* HeaderCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderCollectionReusableView.swift; sourceTree = "<group>"; };
+		607E551D27253854002116B1 /* HeaderCollectionReusableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderCollectionReusableView.xib; sourceTree = "<group>"; };
 		608D6B0E272411DB00EC0DCE /* NewsCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewsCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		608D6B11272411DB00EC0DCE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		608D6B13272411DB00EC0DCE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -116,6 +120,15 @@
 			path = cell;
 			sourceTree = "<group>";
 		};
+		607E551B272536F4002116B1 /* CollectionVIewheader */ = {
+			isa = PBXGroup;
+			children = (
+				607E551C27253854002116B1 /* HeaderCollectionReusableView.swift */,
+				607E551D27253854002116B1 /* HeaderCollectionReusableView.xib */,
+			);
+			path = CollectionVIewheader;
+			sourceTree = "<group>";
+		};
 		608D6B05272411DB00EC0DCE = {
 			isa = PBXGroup;
 			children = (
@@ -141,6 +154,7 @@
 		608D6B10272411DB00EC0DCE /* NewsCards */ = {
 			isa = PBXGroup;
 			children = (
+				607E551B272536F4002116B1 /* CollectionVIewheader */,
 				607E551827243550002116B1 /* cell */,
 				608D6B11272411DB00EC0DCE /* AppDelegate.swift */,
 				608D6B13272411DB00EC0DCE /* SceneDelegate.swift */,
@@ -290,6 +304,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				607E551F27253854002116B1 /* HeaderCollectionReusableView.xib in Resources */,
 				608D6B21272411DF00EC0DCE /* LaunchScreen.storyboard in Resources */,
 				608D6B1E272411DF00EC0DCE /* Assets.xcassets in Resources */,
 				608D6B19272411DB00EC0DCE /* Main.storyboard in Resources */,
@@ -424,6 +439,7 @@
 				608D6B1C272411DB00EC0DCE /* NewsCards.xcdatamodeld in Sources */,
 				608D6B16272411DB00EC0DCE /* ViewController.swift in Sources */,
 				608D6B12272411DB00EC0DCE /* AppDelegate.swift in Sources */,
+				607E551E27253854002116B1 /* HeaderCollectionReusableView.swift in Sources */,
 				608D6B14272411DB00EC0DCE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

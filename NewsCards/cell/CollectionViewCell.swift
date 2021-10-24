@@ -12,11 +12,22 @@ class CollectionViewCell: UICollectionViewCell {
     
     weak var categoryLabel: UILabel!
     weak var titleLabel: UILabel!
+    weak var timeLabel: UILabel!
     weak var imageView: UIImageView!
 
     override init(frame: CGRect) {
         super.init(frame: frame)
-        backgroundColor = .red
+        
+        // Set masks to bounds to false to avoid the shadow
+        // from being clipped to the corner radius
+        layer.cornerRadius = 5.0
+        layer.masksToBounds = false
+        
+        contentView.layer.cornerRadius = 5.0
+        contentView.layer.masksToBounds = true
+        setDropShadow()
+        
+        contentView.backgroundColor = .red
         
         let imageView = UIImageView(frame: .zero)
         imageView.translatesAutoresizingMaskIntoConstraints = false
@@ -36,11 +47,24 @@ class CollectionViewCell: UICollectionViewCell {
         categoryLabel.text = "Technology"
         self.contentView.addSubview(categoryLabel)
         NSLayoutConstraint.activate([
-            categoryLabel.topAnchor.constraint(equalTo: imageView.bottomAnchor, constant: 20),
+            categoryLabel.topAnchor.constraint(equalTo: imageView.bottomAnchor, constant: 10),
             categoryLabel.leadingAnchor.constraint(equalTo: self.contentView.leadingAnchor, constant: 10),
             categoryLabel.trailingAnchor.constraint(equalTo: self.contentView.trailingAnchor, constant: 10)
         ])
         self.categoryLabel = categoryLabel
+        
+        let timeLabel = UILabel(frame: .zero)
+        timeLabel.numberOfLines = 0
+        timeLabel.textAlignment = .left
+        timeLabel.translatesAutoresizingMaskIntoConstraints = false
+        timeLabel.text = "October 22, 2021"
+        self.contentView.addSubview(timeLabel)
+        NSLayoutConstraint.activate([
+            timeLabel.leadingAnchor.constraint(equalTo: self.contentView.leadingAnchor, constant: 10),
+            timeLabel.trailingAnchor.constraint(equalTo: self.contentView.trailingAnchor, constant: 10),
+            timeLabel.bottomAnchor.constraint(lessThanOrEqualTo: self.contentView.bottomAnchor, constant: -10)
+        ])
+        self.timeLabel = timeLabel
         
         let textLabel = UILabel(frame: .zero)
         textLabel.numberOfLines = 0
@@ -68,5 +92,26 @@ class CollectionViewCell: UICollectionViewCell {
     override func prepareForReuse() {
         super.prepareForReuse()
 
+    }
+    
+    
+    private func setDropShadow() {
+        // How blurred the shadow is
+        layer.shadowRadius = 8.0
+
+        // The color of the drop shadow
+        layer.shadowColor = UIColor.black.cgColor
+
+        // How transparent the drop shadow is
+        layer.shadowOpacity = 0.7
+
+        // How far the shadow is offset from the UICollectionViewCell’s frame
+        layer.shadowOffset = CGSize(width: 0, height: 5)
+        
+        // Specify a shadowPath to improve shadow drawing performance
+        layer.shadowPath = UIBezierPath(
+            roundedRect: bounds,
+            cornerRadius: 5.0
+        ).cgPath
     }
 }
