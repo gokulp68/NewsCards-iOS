@@ -15,17 +15,17 @@
             <autoresizingMask key="autoresizingMask"/>
             <subviews>
                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="P2W-H7-OYy">
-                    <rect key="frame" x="20" y="-1" width="75.5" height="52"/>
+                    <rect key="frame" x="20" y="-1" width="77" height="52"/>
                     <subviews>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PpY-qT-7KX">
-                            <rect key="frame" x="0.0" y="0.0" width="75.5" height="15"/>
+                            <rect key="frame" x="0.0" y="0.0" width="77" height="15"/>
                             <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
                             <nil key="textColor"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sHU-qc-tle">
-                            <rect key="frame" x="0.0" y="15" width="75.5" height="37"/>
-                            <fontDescription key="fontDescription" type="system" weight="medium" pointSize="31"/>
+                            <rect key="frame" x="0.0" y="15" width="77" height="37"/>
+                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="31"/>
                             <nil key="textColor"/>
                             <nil key="highlightedColor"/>
                         </label>

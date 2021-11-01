@@ -5,6 +5,8 @@ target 'NewsCards' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
   pod 'Cards'
+  pod 'Alamofire', '~> 5.4'
+  pod 'SDWebImage', '~> 4.0'
   # Pods for NewsCards
 
   target 'NewsCardsTests' do

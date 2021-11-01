@@ -14,6 +14,12 @@ class CollectionViewCell: UICollectionViewCell {
     weak var titleLabel: UILabel!
     weak var timeLabel: UILabel!
     weak var imageView: UIImageView!
+    var isShimmer = false {
+        didSet {
+            showShimmer(isShimmer)
+        }
+    }
+    var shimmerViews = [UIView]()
 
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -25,9 +31,8 @@ class CollectionViewCell: UICollectionViewCell {
         
         contentView.layer.cornerRadius = 5.0
         contentView.layer.masksToBounds = true
+        contentView.backgroundColor = .white
         setDropShadow()
-        
-        contentView.backgroundColor = .red
         
         let imageView = UIImageView(frame: .zero)
         imageView.translatesAutoresizingMaskIntoConstraints = false
@@ -44,12 +49,12 @@ class CollectionViewCell: UICollectionViewCell {
         let categoryLabel = UILabel(frame: .zero)
         categoryLabel.translatesAutoresizingMaskIntoConstraints = false
         categoryLabel.textAlignment = .left
-        categoryLabel.text = "Technology"
+        categoryLabel.font = UIFont.systemFont(ofSize: 15)
         self.contentView.addSubview(categoryLabel)
         NSLayoutConstraint.activate([
             categoryLabel.topAnchor.constraint(equalTo: imageView.bottomAnchor, constant: 10),
             categoryLabel.leadingAnchor.constraint(equalTo: self.contentView.leadingAnchor, constant: 10),
-            categoryLabel.trailingAnchor.constraint(equalTo: self.contentView.trailingAnchor, constant: 10)
+//            categoryLabel.trailingAnchor.constraint(equalTo: self.contentView.trailingAnchor, constant: -10)
         ])
         self.categoryLabel = categoryLabel
         
@@ -57,11 +62,11 @@ class CollectionViewCell: UICollectionViewCell {
         timeLabel.numberOfLines = 0
         timeLabel.textAlignment = .left
         timeLabel.translatesAutoresizingMaskIntoConstraints = false
-        timeLabel.text = "October 22, 2021"
+        timeLabel.font = UIFont.systemFont(ofSize: 15)
         self.contentView.addSubview(timeLabel)
         NSLayoutConstraint.activate([
             timeLabel.leadingAnchor.constraint(equalTo: self.contentView.leadingAnchor, constant: 10),
-            timeLabel.trailingAnchor.constraint(equalTo: self.contentView.trailingAnchor, constant: 10),
+            timeLabel.trailingAnchor.constraint(equalTo: self.contentView.trailingAnchor, constant: -10),
             timeLabel.bottomAnchor.constraint(lessThanOrEqualTo: self.contentView.bottomAnchor, constant: -10)
         ])
         self.timeLabel = timeLabel
@@ -69,14 +74,68 @@ class CollectionViewCell: UICollectionViewCell {
         let textLabel = UILabel(frame: .zero)
         textLabel.numberOfLines = 0
         textLabel.translatesAutoresizingMaskIntoConstraints = false
-        textLabel.text = "EXCLUSIVE Canada says proposed U.S. EV tax credit could harm sector, mulls possible challenge"
+        textLabel.font = UIFont.boldSystemFont(ofSize: 17)
+        textLabel.numberOfLines = 2
         self.contentView.addSubview(textLabel)
         NSLayoutConstraint.activate([
-            textLabel.topAnchor.constraint(equalTo: categoryLabel.bottomAnchor, constant: 10),
+            textLabel.topAnchor.constraint(equalTo: categoryLabel.bottomAnchor, constant: 5),
             textLabel.leadingAnchor.constraint(equalTo: self.contentView.leadingAnchor, constant: 10),
-            textLabel.trailingAnchor.constraint(equalTo: self.contentView.trailingAnchor, constant: 10)
+            textLabel.trailingAnchor.constraint(equalTo: self.contentView.trailingAnchor, constant: -10)
         ])
         self.titleLabel = textLabel
+        
+        let shimmerImageView = UIView(frame: .zero)
+        shimmerImageView.translatesAutoresizingMaskIntoConstraints = false
+        shimmerImageView.backgroundColor = .gray
+        shimmerImageView.isHidden = true
+        self.contentView.addSubview(shimmerImageView)
+        NSLayoutConstraint.activate([
+            shimmerImageView.topAnchor.constraint(equalTo: imageView.topAnchor),
+            shimmerImageView.leadingAnchor.constraint(equalTo: imageView.leadingAnchor),
+            shimmerImageView.trailingAnchor.constraint(equalTo: imageView.trailingAnchor),
+            shimmerImageView.bottomAnchor.constraint(equalTo: imageView.bottomAnchor)
+        ])
+        shimmerViews.append(shimmerImageView)
+        
+        let shimmerTitleView = UIView(frame: .zero)
+        shimmerTitleView.translatesAutoresizingMaskIntoConstraints = false
+        shimmerTitleView.backgroundColor = .gray
+        shimmerTitleView.isHidden = true
+        self.contentView.addSubview(shimmerTitleView)
+        NSLayoutConstraint.activate([
+            shimmerTitleView.topAnchor.constraint(equalTo: titleLabel.topAnchor),
+            shimmerTitleView.leadingAnchor.constraint(equalTo: titleLabel.leadingAnchor),
+            shimmerTitleView.trailingAnchor.constraint(equalTo: titleLabel.trailingAnchor),
+            shimmerTitleView.bottomAnchor.constraint(equalTo: titleLabel.bottomAnchor)
+        ])
+        shimmerViews.append(shimmerTitleView)
+        
+        let timeLabelShimmer = UIView(frame: .zero)
+        timeLabelShimmer.translatesAutoresizingMaskIntoConstraints = false
+        timeLabelShimmer.backgroundColor = .gray
+        timeLabelShimmer.isHidden = true
+        self.contentView.addSubview(timeLabelShimmer)
+        NSLayoutConstraint.activate([
+            timeLabelShimmer.topAnchor.constraint(equalTo: timeLabel.topAnchor),
+            timeLabelShimmer.leadingAnchor.constraint(equalTo: timeLabel.leadingAnchor),
+            timeLabelShimmer.trailingAnchor.constraint(equalTo: timeLabel.trailingAnchor),
+            timeLabelShimmer.bottomAnchor.constraint(equalTo: timeLabel.bottomAnchor)
+        ])
+        shimmerViews.append(timeLabelShimmer)
+        
+        let categoryLabelShimmer = UIView(frame: .zero)
+        categoryLabelShimmer.translatesAutoresizingMaskIntoConstraints = false
+        categoryLabelShimmer.backgroundColor = .gray
+        categoryLabelShimmer.isHidden = true
+        self.contentView.addSubview(categoryLabelShimmer)
+        NSLayoutConstraint.activate([
+            categoryLabelShimmer.topAnchor.constraint(equalTo: categoryLabel.topAnchor),
+            categoryLabelShimmer.leadingAnchor.constraint(equalTo: categoryLabel.leadingAnchor),
+            categoryLabelShimmer.trailingAnchor.constraint(equalTo: categoryLabel.trailingAnchor),
+            categoryLabelShimmer.bottomAnchor.constraint(equalTo: categoryLabel.bottomAnchor)
+        ])
+        shimmerViews.append(categoryLabelShimmer)
+        
     }
 
     required init?(coder aDecoder: NSCoder) {
@@ -93,7 +152,6 @@ class CollectionViewCell: UICollectionViewCell {
         super.prepareForReuse()
 
     }
-    
     
     private func setDropShadow() {
         // How blurred the shadow is
@@ -113,5 +171,18 @@ class CollectionViewCell: UICollectionViewCell {
             roundedRect: bounds,
             cornerRadius: 5.0
         ).cgPath
+    }
+    
+    public func cofigureCell(article: Article) {
+        titleLabel.text = article.title
+        categoryLabel.text = article.author
+        timeLabel.text = Utils.shared().formatTime(timeString: article.publishedAt)
+        imageView.sd_setImage(with: URL(string: article.urlToImage), completed: nil)
+    }
+    
+    private func showShimmer(_ show: Bool) {
+        for view in shimmerViews {
+            view.isHidden = !show
+        }
     }
 }

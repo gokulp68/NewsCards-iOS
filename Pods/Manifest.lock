@@ -1,20 +1,30 @@
 PODS:
+  - Alamofire (5.4.4)
   - Cards (1.4.0):
     - Player (= 0.13.0)
   - Player (0.13.0)
+  - SDWebImage (4.4.8):
+    - SDWebImage/Core (= 4.4.8)
+  - SDWebImage/Core (4.4.8)
 
 DEPENDENCIES:
+  - Alamofire (~> 5.4)
   - Cards
+  - SDWebImage (~> 4.0)
 
 SPEC REPOS:
   trunk:
+    - Alamofire
     - Cards
     - Player
+    - SDWebImage
 
 SPEC CHECKSUMS:
+  Alamofire: f3b09a368f1582ab751b3fff5460276e0d2cf5c9
   Cards: 45ae6bd0eca7b5e8016d3b6cb30b60b04753f68f
   Player: 968d8d07d923bcdd6f7e4091c9e306eb44a5f7a4
+  SDWebImage: 783af2c3fa36291a250030c4752ee370a9a51d13
 
-PODFILE CHECKSUM: 1127f5c2a1fc1ca3ce85a3df03bce91ed7741bcd
+PODFILE CHECKSUM: 005cb3d999612be97f5f1682ac626dc6f4a178ca
 
 COCOAPODS: 1.9.3

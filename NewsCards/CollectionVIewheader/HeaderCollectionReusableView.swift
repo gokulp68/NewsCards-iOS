@@ -24,7 +24,7 @@ class HeaderCollectionReusableView: UICollectionReusableView {
     }
     
     public func configHeader() {
-        firstTitleLabel.text = "Sunday 24 October".uppercased()
+        firstTitleLabel.text = Utils.shared().getTodayDate().uppercased()
         secondTitleLabel.text = "Today"
     }
     

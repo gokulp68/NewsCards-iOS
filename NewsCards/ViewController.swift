@@ -13,6 +13,8 @@ class ViewController: UIViewController {
     static let cellSideMargin = 20
     weak var collectionView: UICollectionView!
     
+    var articles: [Article]?
+    
     override func loadView() {
         super.loadView()
         let flowLayout = UICollectionViewFlowLayout()
@@ -20,8 +22,8 @@ class ViewController: UIViewController {
         collectionView.translatesAutoresizingMaskIntoConstraints = false
         self.view.addSubview(collectionView)
         NSLayoutConstraint.activate([
-            collectionView.topAnchor.constraint(equalTo: self.view.topAnchor),
-            collectionView.bottomAnchor.constraint(equalTo: self.view.bottomAnchor),
+            collectionView.topAnchor.constraint(equalTo: self.view.layoutMarginsGuide.topAnchor),
+            collectionView.bottomAnchor.constraint(equalTo: self.view.layoutMarginsGuide.bottomAnchor),
             collectionView.leadingAnchor.constraint(equalTo: self.view.leadingAnchor),
             collectionView.trailingAnchor.constraint(equalTo: self.view.trailingAnchor),
         ])
@@ -37,6 +39,12 @@ class ViewController: UIViewController {
         self.collectionView.register(UINib(nibName: "HeaderCollectionReusableView", bundle: nil),
                                         forSupplementaryViewOfKind: UICollectionView.elementKindSectionHeader,
                                         withReuseIdentifier: HeaderCollectionReusableView.identifier)
+        NetworkManager.shared().getDailyHighlights { articles in
+            if articles.count > 0 {
+                self.articles = articles
+                self.collectionView.reloadData()
+            }
+        }
     }
 
 }
@@ -48,11 +56,17 @@ extension ViewController: UICollectionViewDataSource {
     }
 
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 10
+        return articles?.count ?? 10
     }
 
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: CollectionViewCell.cellIdentifier, for: indexPath) as! CollectionViewCell
+        if let articles = articles, indexPath.item < articles.count {
+            cell.isShimmer = false
+            cell.cofigureCell(article: articles[indexPath.item])
+        } else {
+            cell.isShimmer = true
+        }
         return cell
     }
     
@@ -70,7 +84,9 @@ extension ViewController: UICollectionViewDataSource {
 extension ViewController: UICollectionViewDelegate {
 
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        print(indexPath.row + 1)
+        let vc = DetailsViewController()
+        vc.article = articles?[indexPath.row]
+        self.present(vc, animated: true, completion: nil)
     }
 }
 
