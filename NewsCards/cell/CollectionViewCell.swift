@@ -49,7 +49,7 @@ class CollectionViewCell: UICollectionViewCell {
         let categoryLabel = UILabel(frame: .zero)
         categoryLabel.translatesAutoresizingMaskIntoConstraints = false
         categoryLabel.textAlignment = .left
-        categoryLabel.font = UIFont.systemFont(ofSize: 15)
+        categoryLabel.font = UIFont.systemFont(ofSize: 12)
         self.contentView.addSubview(categoryLabel)
         NSLayoutConstraint.activate([
             categoryLabel.topAnchor.constraint(equalTo: imageView.bottomAnchor, constant: 10),
@@ -62,7 +62,7 @@ class CollectionViewCell: UICollectionViewCell {
         timeLabel.numberOfLines = 0
         timeLabel.textAlignment = .left
         timeLabel.translatesAutoresizingMaskIntoConstraints = false
-        timeLabel.font = UIFont.systemFont(ofSize: 15)
+        timeLabel.font = UIFont.systemFont(ofSize: 12)
         self.contentView.addSubview(timeLabel)
         NSLayoutConstraint.activate([
             timeLabel.leadingAnchor.constraint(equalTo: self.contentView.leadingAnchor, constant: 10),
@@ -74,7 +74,7 @@ class CollectionViewCell: UICollectionViewCell {
         let textLabel = UILabel(frame: .zero)
         textLabel.numberOfLines = 0
         textLabel.translatesAutoresizingMaskIntoConstraints = false
-        textLabel.font = UIFont.boldSystemFont(ofSize: 17)
+        textLabel.font = UIFont.boldSystemFont(ofSize: 13)
         textLabel.numberOfLines = 2
         self.contentView.addSubview(textLabel)
         NSLayoutConstraint.activate([

@@ -12,6 +12,7 @@ class ViewController: UIViewController {
     
     static let cellSideMargin = 20
     weak var collectionView: UICollectionView!
+    weak var bottomBarBG: UIView!
     
     var articles: [Article]?
     
@@ -21,13 +22,15 @@ class ViewController: UIViewController {
         let collectionView = UICollectionView(frame: .zero, collectionViewLayout: flowLayout)
         collectionView.translatesAutoresizingMaskIntoConstraints = false
         self.view.addSubview(collectionView)
+        setBottomBar()
         NSLayoutConstraint.activate([
             collectionView.topAnchor.constraint(equalTo: self.view.layoutMarginsGuide.topAnchor),
-            collectionView.bottomAnchor.constraint(equalTo: self.view.layoutMarginsGuide.bottomAnchor),
+            collectionView.bottomAnchor.constraint(equalTo: self.bottomBarBG.topAnchor),
             collectionView.leadingAnchor.constraint(equalTo: self.view.leadingAnchor),
             collectionView.trailingAnchor.constraint(equalTo: self.view.trailingAnchor),
         ])
         self.collectionView = collectionView
+        
     }
     
     override func viewDidLoad() {
@@ -45,6 +48,41 @@ class ViewController: UIViewController {
                 self.collectionView.reloadData()
             }
         }
+    }
+    
+    func setBottomBar() {
+        let backgroundView = UIView(frame: .zero)
+        backgroundView.translatesAutoresizingMaskIntoConstraints = false
+        view.addSubview(backgroundView)
+        backgroundView.backgroundColor = .red
+        backgroundView.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 0).isActive = true
+        backgroundView.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: 0).isActive = true
+        backgroundView.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: 0).isActive = true
+        backgroundView.heightAnchor.constraint(equalToConstant: 80).isActive = true
+        bottomBarBG = backgroundView
+        
+        let button = UIButton(type: .custom)
+        button.translatesAutoresizingMaskIntoConstraints = false
+        button.setImage(UIImage(named: "test"), for: .normal)
+//        button.addTarget(self, action:Selector("callMethod"), forControlEvents: UIControlEvents.TouchDragInside)
+        button.widthAnchor.constraint(equalToConstant: 45).isActive = true
+        button.heightAnchor.constraint(equalToConstant: 45).isActive = true
+        
+        let stackView = UIStackView(arrangedSubviews: [button])
+        stackView.translatesAutoresizingMaskIntoConstraints = false
+        stackView.axis = .horizontal
+        stackView.alignment = .fill
+        stackView.distribution = .fill
+        backgroundView.addSubview(stackView)
+        NSLayoutConstraint.activate([
+            stackView.topAnchor.constraint(equalTo: backgroundView.topAnchor, constant: 10),
+            stackView.centerXAnchor.constraint(equalTo: backgroundView.centerXAnchor, constant: 0)
+//            stackView.leadingAnchor.constraint(equalTo: backgroundView.leadingAnchor),
+//            stackView.trailingAnchor.constraint(equalTo: backgroundView.trailingAnchor),
+//            stackView.bottomAnchor.constraint(equalTo: backgroundView.bottomAnchor)
+        ])
+        
+        
     }
 
 }
